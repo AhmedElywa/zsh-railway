@@ -11,13 +11,13 @@ Add `antigen bundle AhmedElywa/zsh-railway` to your `~/.zshrc`.
 * Clone the repository inside your oh-my-zsh repo:
 
 ```zsh
-git clone https://github.com/AhmedElywa/zsh-railway ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-lerna
+git clone https://github.com/AhmedElywa/zsh-railway ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-railway
 ```
 
 * Enable it in your `.zshrc` by adding it to your plugin list and reloading the completion:
 
 ```zsh
-plugins=(… zsh-lerna)
+plugins=(… zsh-railway)
 ```
 ### Manual installation
 
@@ -27,7 +27,7 @@ plugins=(… zsh-lerna)
 
 * Include the directory in your `$fpath`, for example by adding in `~/.zshrc`:
 
-        fpath=(path/to/zsh-lerna $fpath)
+        fpath=(path/to/zsh-railway $fpath)
 
 * You may have to force rebuild `zcompdump`:
 
