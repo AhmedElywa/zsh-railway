@@ -28,7 +28,7 @@ function listRailwayCompletions {
 	)
 }
 
-compctl -K listRailwayCompletions lerna
+compctl -K listRailwayCompletions railway
 
 alias rw='railway'
 alias rwa='railway add'
